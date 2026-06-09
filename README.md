@@ -55,15 +55,23 @@ unit-tested, embedded in batch jobs, or called from the API interchangeably.
 # 1. Install
 pip install -r requirements.txt
 
-# 2. Seed the database with reference data + demo customers/transactions
+# 2. See the whole platform work end-to-end in your terminal (no browser needed)
+python -m scripts.demo
+
+# 3. Seed the database with reference data + demo customers/transactions
 python -m aml_platform.db.seed
 
-# 3. Run the API
+# 4. Run the API
 uvicorn aml_platform.api.main:app --reload
 
-# 4. Open the interactive docs
+# 5. Open the interactive docs and use every capability from the browser
 #    http://127.0.0.1:8000/docs
 ```
+
+`python -m scripts.demo` runs the full compliance workflow — onboard a customer,
+compute the CRR, screen against sanctions/PEP lists, ingest transactions, run
+monitoring, triage alerts, escalate to a case, file a SAR and view the MIS
+dashboard — printing each step's real output.
 
 Run the test suite:
 
