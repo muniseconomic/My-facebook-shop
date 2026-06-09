@@ -1,0 +1,87 @@
+[
+  {
+    "entry_id": "OFAC-0001",
+    "name": "Viktor Anatolyevich Petrov",
+    "list_type": "SANCTIONS",
+    "source": "OFAC",
+    "aliases": ["Viktor Petrov", "V. A. Petrov", "Viktor Anatolievich Petroff"],
+    "date_of_birth": "1968-04-12",
+    "nationality": "RU",
+    "program": "RUSSIA-EO14024",
+    "remarks": "Illustrative test entry - not a real designation."
+  },
+  {
+    "entry_id": "OFAC-0002",
+    "name": "Global Horizon Trading LLC",
+    "list_type": "SANCTIONS",
+    "source": "OFAC",
+    "aliases": ["Global Horizon Trading", "GH Trading", "Global Horizon FZE"],
+    "nationality": "AE",
+    "program": "IRAN-EO13902",
+    "remarks": "Illustrative front-company test entry."
+  },
+  {
+    "entry_id": "UN-1004",
+    "name": "Ahmed Khalil Al-Rashid",
+    "list_type": "SANCTIONS",
+    "source": "UN",
+    "aliases": ["Ahmad Khalil al Rashid", "Ahmed Al Rashid", "Abu Khalil"],
+    "date_of_birth": "1975-09-30",
+    "nationality": "SY",
+    "program": "ISIL-AQ",
+    "remarks": "Illustrative CFT test entry."
+  },
+  {
+    "entry_id": "EU-2210",
+    "name": "Nguyen Van Thanh",
+    "list_type": "SANCTIONS",
+    "source": "EU",
+    "aliases": ["Nguyen Thanh", "Thanh Van Nguyen"],
+    "date_of_birth": "1980-01-22",
+    "nationality": "VN",
+    "program": "EU-CYBER",
+    "remarks": "Illustrative test entry."
+  },
+  {
+    "entry_id": "PEP-5001",
+    "name": "Maria Fernanda Oliveira Santos",
+    "list_type": "PEP",
+    "source": "PEP-DB",
+    "aliases": ["Maria F. Santos", "Maria Oliveira Santos"],
+    "date_of_birth": "1972-06-18",
+    "nationality": "BR",
+    "program": "Senior government official",
+    "remarks": "Illustrative PEP test entry."
+  },
+  {
+    "entry_id": "PEP-5002",
+    "name": "Abdullah Bin Saleh Al-Otaibi",
+    "list_type": "PEP",
+    "source": "PEP-DB",
+    "aliases": ["Abdullah Al Otaibi", "Abdullah Saleh Alotaibi"],
+    "nationality": "SA",
+    "program": "Cabinet minister",
+    "remarks": "Illustrative PEP test entry."
+  },
+  {
+    "entry_id": "INT-9001",
+    "name": "John Michael Doe",
+    "list_type": "INTERNAL_BLACKLIST",
+    "source": "INTERNAL",
+    "aliases": ["Johnny Doe", "J. M. Doe"],
+    "date_of_birth": "1990-11-05",
+    "nationality": "US",
+    "program": "Exited - confirmed fraud",
+    "remarks": "Illustrative internal blacklist entry."
+  },
+  {
+    "entry_id": "ADV-7001",
+    "name": "Sergei Ivanov Kuznetsov",
+    "list_type": "ADVERSE_MEDIA",
+    "source": "MEDIA",
+    "aliases": ["Sergey Kuznetsov", "S. Kuznetsov"],
+    "nationality": "RU",
+    "program": "Alleged embezzlement (press)",
+    "remarks": "Illustrative adverse-media test entry."
+  }
+]
